@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello SQL!</title>
+    <script type="text/javascript" src="../vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/clientapp.js"></script>
+</head>
+<body>
+<h1>SQL in Node!</h1>
+
+<h2>Total Employee Salaries: $<span id="total-salaries"></span></h2>
+<h3>Monthly Salary Cost: $<span id="monthly-salary-cost"></span></h3>
+
+<form id="employee_form">
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="first_name" />
+
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="last_name" />
+
+    <label for="id">Employee ID:</label>
+    <input type="text" id="id" name="id" />
+
+    <label for="job_title">Job Title:</label>
+    <input type="text" id="job_title" name="job_title" />
+
+    <label for="salary">Salary:</label>
+    <input type="text" id="salary" name="salary" />
+
+    <button id="submit-button">Save to DB!</button>
+</form>
+<div class="person-container"></div>
+</body>
+</html>

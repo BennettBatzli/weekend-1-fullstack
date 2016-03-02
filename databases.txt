@@ -1,0 +1,9 @@
+CREATE TABLE public.employees
+(
+  employee_id integer NOT NULL,
+  first_name character varying(255) NOT NULL,
+  last_name character varying(255) NOT NULL,
+  job_title character varying(100) NOT NULL,
+  salary character varying(30) NOT NULL,
+  CONSTRAINT employees_pkey PRIMARY KEY (employee_id)
+)
